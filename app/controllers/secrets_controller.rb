@@ -2,7 +2,7 @@ class SecretsController < ApplicationController
     before_action :current_user
 
     def homepage
-        redirect_to root_path
+        render root_path
     end
     
     def show
